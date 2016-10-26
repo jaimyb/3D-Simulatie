@@ -1,12 +1,16 @@
 ﻿#pragma strict
 
 //Variables
-var rotateSpeed = 50f;
+var rotateSpeed = 200f;
+
+var lockPos = 0;
+
+//Options
+Screen.lockCursor = true;
 
 
 
-
-
+//Functions
 function cameraAxisMovement () {
 
 	var rotateVector = new Vector3(0f,0f,0f);
@@ -18,10 +22,10 @@ function cameraAxisMovement () {
 		rotateVector.y += 1;
 
 	if(Input.GetAxis("Mouse Y") < 0)
-		rotateVector.x += -1;
+		rotateVector.x += 1;
 
 	if(Input.GetAxis("Mouse Y") > 0)
-		rotateVector.x += 1;
+		rotateVector.x += -1;
 
 	transform.Rotate(rotateVector, rotateSpeed * Time.deltaTime);
 		
@@ -29,5 +33,6 @@ function cameraAxisMovement () {
 
 
 function Update () {
-	cameraAxisMovement();
+    cameraAxisMovement();
+    transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, lockPos);
 }
