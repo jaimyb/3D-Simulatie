@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 //Variables
-var rotateSpeed = 200f;
+
 
 var lockPos = 0;
 
@@ -11,8 +11,8 @@ Screen.lockCursor = true;
 
 
 //Functions
-function cameraAxisMovement () {
-
+function cameraAxisRotate () {
+	var rotateSpeed = 200f;
 	var rotateVector = new Vector3(0f,0f,0f);
 
 	if(Input.GetAxis("Mouse X") < 0)
@@ -31,8 +31,32 @@ function cameraAxisMovement () {
 		
 }
 
+function cameraAxisMovement () {
+	var sensetivity = 0.01f;
+	var movementVector = new Vector3(0f,0f,0f);
+	var movementSpeed = 0.3f;
+	var hMove = Input.GetAxis("Horizontal");
+	var vMove = Input.GetAxis("Vertical");
+
+	movementVector.y = 0f;
+
+	if(hMove < -sensetivity)
+		movementVector.x += -movementSpeed;
+	if(hMove > sensetivity)
+		movementVector.x += movementSpeed;
+	if(vMove < -sensetivity)
+		movementVector.z += -movementSpeed;
+	if(vMove > sensetivity)
+		movementVector.z += movementSpeed;
+
+	
+
+	transform.Translate(movementVector);
+}
 
 function Update () {
+    cameraAxisRotate();
     cameraAxisMovement();
     transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, lockPos);
+    transform.position.y = 3;
 }
