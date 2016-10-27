@@ -34,7 +34,7 @@ function cameraAxisRotate () {
 function cameraAxisMovement () {
 	var sensetivity = 0.01f;
 	var movementVector = new Vector3(0f,0f,0f);
-	var movementSpeed = 0.3f;
+	var movementSpeed = 0.1f;
 	var hMove = Input.GetAxis("Horizontal");
 	var vMove = Input.GetAxis("Vertical");
 
