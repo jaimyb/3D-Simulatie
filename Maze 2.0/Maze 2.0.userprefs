@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewBehaviourScript1.js">
     <Files>
-      <File FileName="Assets\NewBehaviourScript1.js" Line="14" Column="21" />
+      <File FileName="Assets\NewBehaviourScript1.js" Line="17" Column="1" />
+      <File FileName="Assets\trigger_walls.js" Line="8" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
