@@ -45,7 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HeadBob.js" />
+     <Compile Include="Assets\MouseLookScript.js" />
      <Compile Include="Assets\NewBehaviourScript1.js" />
+     <Compile Include="Assets\PLayerMovementcript.js" />
      <Compile Include="Assets\trigger_walls.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
