@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MouseLookScript.js">
     <Files>
-      <File FileName="Assets\PlayerMovementScript.js" Line="2" Column="36" />
-      <File FileName="Assets\MouseLookScript.js" Line="16" Column="32" />
+      <File FileName="Assets\PlayerMovementScript.js" Line="1" Column="1" />
+      <File FileName="Assets\MouseLookScript.js" Line="15" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

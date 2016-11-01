@@ -12,8 +12,8 @@ var lookSmoothDamp: float = 0.1;
 var headBobSpeed: float = 1;
 var headBobStepCounter: float;
 var lastPos: Vector3;
-var headBobAmountX: float = 0.2;
-var headBobAmountY: float = 0.1;
+var headBobAmountX: float = 0.1;
+var headBobAmountY: float = 0.05;
 
 lastPos = transform.position;
 
