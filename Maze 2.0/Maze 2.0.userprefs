@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-UnityScript.unityproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MouseLookScript.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PowerUpWallColor.js">
     <Files>
+      <File FileName="Assets\PowerUpWallColor.js" Line="11" Column="4" />
       <File FileName="Assets\HeadBob.js" Line="1" Column="1" />
-      <File FileName="Assets\NewBehaviourScript1.js" Line="1" Column="1" />
+      <File FileName="Assets\NewBehaviourScript1.js" Line="30" Column="4" />
       <File FileName="Assets\trigger_walls.js" Line="1" Column="1" />
       <File FileName="Assets\MouseLookScript.js" Line="1" Column="1" />
     </Files>
