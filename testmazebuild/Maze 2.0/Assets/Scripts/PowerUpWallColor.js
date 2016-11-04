@@ -4,19 +4,26 @@ var triggered = false;
 var time: float;
 var lastColor = new Color32(236, 63, 203, 1);
 
-gameObject.SetActive(false);
 //door = GameObject.Find("Cube (32)");
+
+
+
+
+
+
 
 function OnTriggerEnter(theCollision : Collider)
 {
 	if(theCollision.gameObject.tag == "Player")
 	{		
 			if(!triggered)
+			{
 				//door.GetComponent.<Renderer>().material.color = Color.blue;
-
+			
+			}
+			
 			triggered = true;
 			GetComponent(MeshRenderer).enabled = false;
-	
 			GetComponent.<AudioSource>().Play();
 
 			if(triggered)
@@ -30,10 +37,6 @@ function OnTriggerEnter(theCollision : Collider)
 	}
 }
 
-function SetActive()
-{
-	gameObject.SetActive(true);
-}
 
 function Update () 
 {
