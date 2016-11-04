@@ -4,6 +4,7 @@ var triggered = false;
 var time: float;
 var lastColor = new Color32(236, 63, 203, 1);
 
+gameObject.SetActive(false);
 //door = GameObject.Find("Cube (32)");
 
 function OnTriggerEnter(theCollision : Collider)
@@ -27,6 +28,11 @@ function OnTriggerEnter(theCollision : Collider)
 
 
 	}
+}
+
+function SetActive()
+{
+	gameObject.SetActive(true);
 }
 
 function Update () 

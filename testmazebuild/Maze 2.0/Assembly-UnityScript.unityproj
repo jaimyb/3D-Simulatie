@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\PlayerMovementScript.js" />
      <Compile Include="Assets\Scripts\PowerUpSpeed.js" />
      <Compile Include="Assets\Scripts\PowerUpWallColor.js" />
+     <Compile Include="Assets\Scripts\SpawnPowerUps.js" />
      <Compile Include="Assets\Scripts\StopTimer.js" />
      <Compile Include="Assets\Scripts\TimerScript.js" />
      <Compile Include="Assets\Scripts\trigger_walls.js" />
