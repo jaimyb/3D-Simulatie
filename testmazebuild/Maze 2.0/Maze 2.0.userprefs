@@ -6,7 +6,8 @@
       <File FileName="Assets\Scripts\GameOverManager.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PowerUpSpeed.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerMovementScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SpawnPowerUps.js" Line="21" Column="2" />
+      <File FileName="Assets\Scripts\SpawnPowerUps.js" Line="57" Column="23" />
+      <File FileName="Assets\Scripts\PowerUpWallColor.js" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
